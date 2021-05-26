@@ -1,42 +1,42 @@
 [
   {
     "path": "/",
-    "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\layout",
+    "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\home"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\home"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\login"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\profile"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\profile"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\settings"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\settings"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\editor"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\editor"
       },
       {
         "path": "/article:slug",
         "name": "article",
-        "component": "D:\\\\SSR\\\\realworld-nuxtjs\\\\pages\\\\article"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\article"
       }
     ]
   }
