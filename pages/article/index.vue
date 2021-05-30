@@ -29,13 +29,13 @@
     <div class="container page">
 
       <div class="row article-content">
-        <div class="col-md-12">
-          <p>
-          Web development technologies have evolved at an incredible clip over the past few years.
-          </p>
-          <h2 id="introducing-ionic">Introducing RealWorld.</h2>
-          <p>It's a great solution for learning how other frameworks work.</p>
+        <div class="col-md-12" v-html="article.body">
         </div>
+        <ul class="tag-list">
+          <li class="tag-default tag-pill tag-outline" v-for="tag in article.tagList" :key="tag">
+            {{tag}}
+          </li>
+        </ul>
       </div>
 
       <hr />
@@ -120,8 +120,18 @@
 </template>
 
 <script>
+import { getArticle } from '@/api/article'
 export default {
   name: 'ArticleIndex',
+  async asyncData ({ params }) {
+    const { data } = await getArticle(params.slug)
+    const { article } = data
+    const md = new MarkdownIt()
+    article.body = md.render(article.body)
+    return {
+      article: article
+    }
+  },
   data () {
     return {
       msg: ''

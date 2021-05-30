@@ -6,38 +6,46 @@
       {
         "path": "",
         "name": "home",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\home"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\home",
+        "_name": "_0f9329f7"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login",
+        "_name": "_39eb455e"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login",
+        "_name": "_39eb455e"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\profile"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\profile",
+        "_name": "_230f1d91"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\settings"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\settings",
+        "_name": "_5fd6b58a"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\editor"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\editor",
+        "_name": "_71b57085"
       },
       {
         "path": "/article:slug",
         "name": "article",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\article"
+        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\article",
+        "_name": "_09d960de"
       }
-    ]
+    ],
+    "_name": "_7d844a42"
   }
 ]

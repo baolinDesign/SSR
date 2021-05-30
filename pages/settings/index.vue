@@ -38,6 +38,8 @@
 
 <script>
 export default {
+  // 在路由匹配足见渲染之前会先执行中间件处理
+  middleware: 'authenticated',
   name: 'SettingsIndex',
   data () {
     return {
