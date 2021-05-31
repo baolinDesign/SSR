@@ -1,51 +1,51 @@
 [
   {
     "path": "/",
-    "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\layout",
+    "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\home",
-        "_name": "_0f9329f7"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\home",
+        "_name": "_d8791210"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login",
-        "_name": "_39eb455e"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\login",
+        "_name": "_36389f20"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\login",
-        "_name": "_39eb455e"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\login",
+        "_name": "_36389f20"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\profile",
-        "_name": "_230f1d91"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\profile",
+        "_name": "_13e024f0"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\settings",
-        "_name": "_5fd6b58a"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\settings",
+        "_name": "_0d36ec88"
       },
       {
         "path": "/editor",
         "name": "editor",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\editor",
-        "_name": "_71b57085"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\editor",
+        "_name": "_a9f2fd74"
       },
       {
         "path": "/article:slug",
         "name": "article",
-        "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\article",
-        "_name": "_09d960de"
+        "component": "E:\\\\SSR\\\\SSR\\\\pages\\\\article",
+        "_name": "_0aab2f86"
       }
     ],
-    "_name": "_7d844a42"
+    "_name": "_925549fa"
   }
 ]
