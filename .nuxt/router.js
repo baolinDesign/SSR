@@ -47,11 +47,11 @@ export const routerOptions = {
       component: _5fd6b58a,
       name: "settings"
     }, {
-      path: "/editor",
+      path: "/editor/:slug?",
       component: _71b57085,
       name: "editor"
     }, {
-      path: "/article:slug",
+      path: "/article/:slug",
       component: _09d960de,
       name: "article"
     }]

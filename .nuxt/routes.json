@@ -34,13 +34,13 @@
         "_name": "_5fd6b58a"
       },
       {
-        "path": "/editor",
+        "path": "/editor/:slug?",
         "name": "editor",
         "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\editor",
         "_name": "_71b57085"
       },
       {
-        "path": "/article:slug",
+        "path": "/article/:slug",
         "name": "article",
         "component": "D:\\\\SSR\\\\SSR\\\\pages\\\\article",
         "_name": "_09d960de"
